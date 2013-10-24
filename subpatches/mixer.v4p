@@ -155,7 +155,7 @@
    <NODE systemname="FileStream2 (DShow9)" nodename="FileStream2 (DShow9)" componentmode="Hidden" id="14">
    <BOUNDS type="Node" left="4290" top="7020" width="100" height="100">
    </BOUNDS>
-   <PIN pinname="Filename" slicecount="1" values="..\assets\high.wav">
+   <PIN pinname="Filename" slicecount="1" values="..\assets\tremble.wav">
    </PIN>
    <PIN pinname="Duration" visible="1">
    </PIN>
@@ -197,7 +197,7 @@
    </PIN>
    <PIN pinname="Driver" slicecount="1" values="|Default DirectSound Device|">
    </PIN>
-   <PIN pinname="Volume" slicecount="1" values="-100" visible="1">
+   <PIN pinname="Volume" slicecount="1" visible="1" values="-100">
    </PIN>
    </NODE>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="17" systemname="IOBox (Value Advanced)">
@@ -231,7 +231,7 @@
    </PIN>
    <PIN pinname="Driver" slicecount="1" values="|Default DirectSound Device|">
    </PIN>
-   <PIN pinname="Volume" slicecount="1" values="0" visible="1">
+   <PIN pinname="Volume" slicecount="1" visible="1" values="0">
    </PIN>
    </NODE>
    <NODE systemname="VideoOut (DShow9)" nodename="VideoOut (DShow9)" componentmode="Hidden" id="20">
@@ -275,7 +275,7 @@
    </PIN>
    <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
-   <PIN pinname="Y Input Value" slicecount="1" values="0" visible="1">
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
    </PIN>
    <PIN pinname="Y Output Value" visible="1">
    </PIN>
